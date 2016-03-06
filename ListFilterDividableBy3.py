@@ -36,6 +36,10 @@ for i in range (0, len(a)):
             aDivisThree.append(x)
 
 
+
+aDivisThree = [e for e in a if int(e)==e and e % 3 == 0]
+
+
 print aDivisThree
 
 print numpy.min(aDivisThree), numpy.max(aDivisThree), numpy.sum(aDivisThree)
