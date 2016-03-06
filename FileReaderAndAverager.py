@@ -15,10 +15,6 @@ d = [2, 4, 5, 1, 6, 5, 40]
 filtered_d = reject_outliers(d)
 
 
-# print filtered_d
-
-# [2,4,5,1,6,5]
-
 
 
 def read(filename):
